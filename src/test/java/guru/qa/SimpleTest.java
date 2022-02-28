@@ -16,4 +16,9 @@ public class SimpleTest {
     void assetFalse() {
         assertFalse(3 < 2);
     }
+
+    @Test
+    void assetFail() {
+fail("another_fail");
+    }
 }

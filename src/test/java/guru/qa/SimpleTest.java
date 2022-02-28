@@ -19,6 +19,11 @@ public class SimpleTest {
 
     @Test
     void assetFail() {
+fail();
+    }
+
+    @Test
+    void assetFail1() {
 fail("another_fail");
     }
 }

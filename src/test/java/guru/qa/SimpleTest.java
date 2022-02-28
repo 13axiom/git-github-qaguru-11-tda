@@ -8,7 +8,7 @@ public class SimpleTest {
 
     @Test
     void assetTrue() {
-        assertTrue (3>2)
+        assertTrue (3 > 0)
     }
 
     @Test
